@@ -1,0 +1,450 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem;
+    align-items: center;
+    color: #126656;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.midBar{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.partition{
+    padding-right: 5rem;
+}
+.partition>span{
+    padding-right:1rem;
+}
+.partition2{
+    padding-left: 4rem;   
+}
+.partition2>span{
+    padding-right:1rem;
+}
+a{
+    text-decoration: none;
+    color: #126656;
+}
+ h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 59px;
+    color: #126656;
+    font-style: normal;
+    top: 268px;
+    height: 59px;
+}
+h3{
+    top: 189px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #B87843;
+}
+.row{
+    margin-top: 6%;
+}
+.right-content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.rightside, p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #126656;
+}
+#misn{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.rightside{
+    background-color: rgb(248, 245, 245); 
+    width: 45%;
+    height: 1237px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 50px
+}
+.leftside{
+    background-color: #fff; 
+    width: 49%;  
+    height: 1237px;
+    float: right;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.left-content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.leftside, img{
+    width: 632px;
+    height: 400px;
+    left: 728px;
+    top: 386px;
+    background: #C4C4C4;
+    border-radius: 10px 10px 0px 0px;
+}
+.line1{
+    width: 86px;
+    height: 10px;
+    left: 151px;
+    margin-top: 43px;
+    background: #B9DBCB;
+    text-align: center;
+}
+.line2{
+    width: 172px;
+    height: 10px;
+    left: 792px;
+    top: 459px;
+    background: #B9DBCB;
+    margin-top: 10px; 
+}
+ h6{
+    width: 119px;
+    height: 37px;
+    left: 151px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #126656;
+}
+h5{
+    font-size: 48px;
+    margin-right: 40%;
+    margin-top: 50%;
+}
+.awards{
+    margin-top: 80%;
+    font-size: 48px;
+    color: #126656;
+}
+.square{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.square, #aw{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+.team, h1{
+    margin-top: 05%;
+}
+.grid{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 5%;
+    grid-gap: 5%;
+}
+h4{
+    color: #126656;
+    font-size: 30px;
+}
+.card, #c-e{
+    color: #126656;
+    font-size: 24px;
+}
+.card{
+    width:50%;
+}
+#c-s{
+    width: 400px;
+}
+ #card-p{
+    color: #126656;
+    margin-left: 11px;
+    width: 350px;
+}
+ button{
+    background-color: #126656;
+    border-radius: 60px;
+    width: 250px;
+    height: 60px;
+    margin-left: 42%;
+    margin-top: .1%;
+    margin-bottom: 5%;
+}
+button #cards-p{
+    width: 148px;
+    height: 29px;
+    margin-left: 55px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.rectangle{
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    margin-top: 10%;
+    background: #CCDEE2;
+}
+.square img{
+    height: 250px;
+    width: 250px;
+    padding-left: 40px;
+    padding-right: 50px;
+    background-color: #CCDEE2;
+} 
+.icons{
+    text-align: center;
+}
+.socials img{
+    margin-top: 10px;
+    width: 38px;
+    height: 38px;
+    padding: 20px;
+    background-color: white;
+}
+ #socil{
+    margin-top: 60%;
+}
+/*-----Product Page-----*/
+.product-pg{
+    margin-bottom: 50px;
+}
+#product{
+    text-align: center;
+}
+.line3{
+    width: 373px;
+    height: 10px;
+    left: 274px;
+    top: 481px;
+    background: #B9DBCB;
+    text-align: center;
+}
+.line4{
+    width: 373px;
+    height: 10px;
+    left: 274px;
+    top: 575px;
+    background: #B9DBCB;
+}
+.incense-stick{
+    padding: 5%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#i-s{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+}
+.incense-left{
+    float: left;
+}
+.incense-right{
+    float: right;
+}
+.incense-right p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+}
+.product-12{
+    padding: 5%;
+    text-align: center;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+.product-left{
+    float: left;
+}
+
+.product-left p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #B87843;
+}
+.short img{
+    height: 65px;
+    width: 370px;
+    margin-left: 70%;
+    margin-top: -100px;
+}
+
+.rect-angle{
+    display: inline-block;
+    width: 400px;
+    height: 587px;
+    margin-left: 7%;
+    margin-top: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.rect-angle img{
+    width: 400px;
+    height: 300px;
+    left: 520px;
+    top: 805px;
+}
+#rose-incense{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.rect-angle .price{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #126656;
+    text-align: center;
+    text-transform: capitalize;
+    float: left;
+    margin-left: 70px;
+}
+.rect-angle .price2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    color: #126656;
+    float: right;
+    margin-right: 130px;
+    margin-top: 6px;
+    text-transform: capitalize;
+    margin-bottom: 10%;
+}
+.rect-angle span{
+    color: #B87843;
+}
+.butn{
+    width: 250px;
+    height: 60px;
+    margin-right: 10%;
+    margin-top: 8%;
+    background: #126656;
+    border-radius: 60px;
+    justify-content: center;
+    color: #fff;
+    font-size: 23px;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.pgs{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+}
+.div-1{
+    float: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 59px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #CCDEE2;
+}
+.div-2{
+    margin-left: 22px;
+    float: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 59px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #126656;
+}
+.num{
+    margin-left: 90px;
+}
+.btn{
+    float: right;
+    width: 60px;
+    height: 60px;
+    left: 757px;
+    color: #fff;
+    font-size: 20px;
+    background: #126656;
+    border-radius: 10px;
+    margin-right: 15%;
+}
+
+.rectangle2{
+    position: absolute;
+    width: 1490px;
+    height: 500px;
+    margin-top: 13%;
+    background: #CCDEE2;
+    border-radius: 10px;
+    margin-left: 6%;
+}
+
+ #info{
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #126656;
+}
+#butn2{
+    margin-left: 42%;
+}
+.rectangle2 .img1{
+    width: 10%;
+    height: 20%;
+    margin-left: -70%;
+    margin-bottom: 30%;
+    background-image: cadetblue;
+}
